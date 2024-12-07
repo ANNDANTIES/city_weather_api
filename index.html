@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather by Country</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    #result {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Weather Information</h1>
+  <form id="weatherForm">
+    <input type="text" id="country" placeholder="Enter Country Name" required>
+    <button type="submit">Get Weather</button>
+  </form>
+  <div id="result"></div>
+  <script src="./script.js"></script>
+</body>
+</html>
